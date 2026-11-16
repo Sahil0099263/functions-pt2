@@ -1,6 +1,8 @@
-def register_students(*students):
-    print("Registered_Students:")
-    for student in students:
+def process_students(student_list):
+    print("Students:")
+    for student in student_list:
         print(student)
-    print("Total:", len(students))
-register_students("Ali", "Leyla", "Kamran")
+    print("Total Students:", len(student_list))
+students = ["Ali", "Leyla", "Kamran", "Aysel"]
+
+process_students(students)
